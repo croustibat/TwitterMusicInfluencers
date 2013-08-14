@@ -91,10 +91,11 @@ Reporting page :
 TODO
 =======
 
-It's an experimental project, so it's not a PRODUCTION READY project.
-What could be done to make it better :
+Here's what i want to add in the future to improve the app :
 
-- use a js framework on the client side like AngularJS or EmberJS (to replace the ugly assets/app.js)
+- use a js framework on the client side like AngularJS (or EmberJS to replace the ugly assets/app.js)
 - improve the background analyzer process (forever is a little buggy)
 - improve the reporting page by adding datas
 - maybe use redis or mongodb to store tweets
+
+Any suggestions is appreciated ;)
