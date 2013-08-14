@@ -14,7 +14,7 @@
 		<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
 		<link href="//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
 
-		<link rel="stylesheet" href="/musicinfluencers/assets/css/admin.css" type="text/css">
+		<link rel="stylesheet" href="/assets/css/admin.css" type="text/css">
 
 		<!--[if IE 7]>
 		 <link href="//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome-ie7.css" rel="stylesheet">
@@ -25,7 +25,7 @@
 		 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<script>
-	      var $domaine = "labs.croustib.at/musicinfluencers/";
+	      var $domaine = "localhost";
 	    </script>
 		</head>
 	<body>
@@ -166,14 +166,14 @@
 		<script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/1.4.5/numeral.min.js"></script>
 		<script src="http://code.highcharts.com/highcharts.js"></script>
 
-		<script src="/musicinfluencers/assets/js/bootbox.min.js"></script>
+		<script src="/assets/js/bootbox.min.js"></script>
 
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-		<script src="/musicinfluencers/assets/js/gmaps.js"> </script>
+		<script src="/assets/js/gmaps.js"> </script>
 
-		<script src="http://labs.croustib.at:8888/socket.io/socket.io.js"></script>
+		<script src="http://localhost:8888/socket.io/socket.io.js"></script>
 
-		<script src="/musicinfluencers/assets/js/app.js"> </script>
+		<script src="/assets/js/app.js"> </script>
 
 	</body>
 </html>

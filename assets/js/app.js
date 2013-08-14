@@ -3,7 +3,7 @@ var $hasPushState   = ('pushState' in history);
 var $currentUri     = window.location.pathname;
 
 // connect to socket.io
-var socket = io.connect('http://labs.croustib.at:8888');
+var socket = io.connect('http://localhost:8888');
 
 // HIGHCHARTS
 Highcharts.setOptions({
@@ -44,39 +44,6 @@ var chartsource = new Highcharts.Chart({
         data: []
     }]
 });
-
-
-// Fetch geocoding
-// connect to gmap
-/*var map = new GMaps({
-	div: '#map',
-	lat: -12.043333,
-	lng: -77.028333
-});*/
-/*$('#address').typeahead({
-
-	source : function(query, process){
-		GMaps.geocode({
-			address: query,
-			callback: function(results, status) {
-				console.log(results[0]);
-				var latlng = results[0].geometry.location;
-
-				var citiesList = [];
-				for(var i=results.length;i--;){
-					citiesList.push(results[i].formatted_address+" #"+latlng.lng()+","+latlng.lat());
-				}
-				process(citiesList);
-			}
-		});
-	},
-	updater: function (item) {
-		var loc = item.split('#');
-		$('#locations').val(loc[1]);
-		return item;
-	}
-
-});*/
 
 $(document).on('click', '.change-page', changePage);
 
