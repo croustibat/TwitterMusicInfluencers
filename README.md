@@ -1,8 +1,9 @@
-The purpose is to create an analyzer with 
+This is an experimental project. The purpose is to create real-time graph of Twitter datas by running a background analyzer based on : 
+
  - a list of hashtags/words to follow, 
  - an exclude hashtags/words list, 
  - an optionnal country  
-and generate an analytics real-time page based on those datas.
+
 The analyzers store all tweets from the Twitter Public Stream API.  
 
 Requirements
