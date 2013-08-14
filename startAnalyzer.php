@@ -30,7 +30,7 @@ if ($output) {
 	print_r($output);
 }
 
-/* DON'T WORK ???
+/* NOT WORKING ???
 $cmd1 = "forever stop";
 exec($cmd1, $output);
 print_r($output);
@@ -49,6 +49,5 @@ $cmd3 = "forever start -p $path --pidFile $path/pids/$randomString.pid -a -o $pa
 echo $cmd3.PHP_EOL;
 
 exec($cmd3, $output);
-print_r($output);
 
-// echo "process started" . PHP_EOL;
+echo "process started" . PHP_EOL;
