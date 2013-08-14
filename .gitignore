@@ -1,0 +1,2 @@
+forever/pids/*.pid
+forever/log/*.log

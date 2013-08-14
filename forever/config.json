@@ -1,0 +1,16 @@
+{
+  "root": "/home/baptiste/document_root/labs/musicinfluencers/forever",
+  "pidPath": "/home/baptiste/document_root/labs/musicinfluencers/forever/pids",
+  "sockPath": "/home/baptiste/document_root/labs/musicinfluencers/forever/sock",
+  "loglength": 100,
+  "logstream": false,
+  "columns": [
+    "uid",
+    "command",
+    "script",
+    "forever",
+    "pid",
+    "logfile",
+    "uptime"
+  ]
+}
